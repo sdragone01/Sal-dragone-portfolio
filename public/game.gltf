@@ -1,0 +1,187 @@
+{
+  "asset": {
+    "copyright": "2020 (c) Adobe Inc.",
+    "generator": "Adobe Dimension - 3de52ae4ccc0c25be48106335282fae5a6a58dee",
+    "version": "2.0"
+  },
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 5920,
+      "type": "VEC3",
+      "max": [
+        0.36614343523979187,
+        1.7323960065841675,
+        0.4640243351459503
+      ],
+      "min": [
+        -0.36614343523979187,
+        0,
+        -0.4640243351459503
+      ]
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 5920,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 5920,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5125,
+      "count": 8976,
+      "type": "SCALAR",
+      "max": [
+        5919
+      ],
+      "min": [
+        0
+      ]
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 71040,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 71040,
+      "byteLength": 71040,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 142080,
+      "byteLength": 47360,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 189440,
+      "byteLength": 35904,
+      "target": 34963
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "game_data.bin",
+      "byteLength": 225344
+    }
+  ],
+  "cameras": [
+    {
+      "perspective": {
+        "znear": 0.000041946226701838896,
+        "yfov": 0.6024156808853149,
+        "zfar": 2.3070425987243652,
+        "aspectRatio": 1.3333333730697632
+      },
+      "type": "perspective",
+      "name": "render_camera"
+    }
+  ],
+  "images": [
+    {
+      "name": "AM_mat_BaseColor",
+      "uri": "game_img0.jpg"
+    },
+    {
+      "name": "AM_mat_Normal",
+      "uri": "game_img1.png"
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0,
+        "roughnessFactor": 0.4000000059604645
+      },
+      "normalTexture": {
+        "index": 1
+      },
+      "name": "AM_mat",
+      "doubleSided": true
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Arcade_machine",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "translation": [
+        0.5,
+        0.29999998211860657,
+        0.5
+      ],
+      "rotation": [
+        -0.12059047073125839,
+        0.379409521818161,
+        0.04995020851492882,
+        0.9159756302833557
+      ],
+      "scale": [
+        1,
+        1,
+        0.9999999403953552
+      ],
+      "camera": 0,
+      "name": "render_camera_n3d"
+    },
+    {
+      "mesh": 0,
+      "name": "Arcade_machine"
+    }
+  ],
+  "samplers": [
+    {},
+    {}
+  ],
+  "scenes": [
+    {
+      "nodes": [
+        0,
+        1
+      ],
+      "name": "scene"
+    }
+  ],
+  "textures": [
+    {
+      "name": "AM_mat::baseColor::image",
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "name": "AM_mat::normal::image",
+      "sampler": 1,
+      "source": 1
+    }
+  ],
+  "scene": 0
+}
