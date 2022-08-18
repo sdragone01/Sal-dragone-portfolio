@@ -2,11 +2,6 @@ import Head from "next/head";
 import Navbar from "../navbar.js";
 import { Box, Container, DarkMode } from '@chakra-ui/react';
 
-
-
-
-
-
 const Main = ({ children, router }) => {
 
     return (
